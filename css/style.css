@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+.header-left{
+    width: 20%;
+    display: flex;
+    margin: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-left ,img{
+    width: 90px;
+    height: 20px;
+    margin: 20px;
+}
+.header-center{
+    flex: 8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.form-group{
+    display: flex;
+}
+input{
+    width: 400px;
+    height: 30px;
+    border-radius: 25px 0 0 25px;
+}
+#button{
+    width: 60px;
+    height: 34px;
+    border-radius: 0 25px 25px 0;
+}
+.header-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+main{
+    display: flex;
+    flex: 13;
+    gap: 10px;
+}
+section{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.aside{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-left: 19px;
+    margin-bottom: 7px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    margin-left: 19px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 4px 10px 4px 10px;
+    margin-left: 15px;
+    border:1px solid rgb(185, 185, 185);
+    color: rgb(0, 38, 255);
+}
+.btn:hover {
+    background-color: rgb(140, 192, 192);
+}
+.text{
+    flex-direction: column;
+}
+.container-top {
+    display: flex;
+    flex: 1;
+}
+.All{
+    background-color: black;
+    color: white;
+}
+.container-top button{
+    margin: 10px;
+    padding: 10px;
+    border: 10px none;
+    border-radius: 15px;
+}
+aside{
+    flex: 8;
+    flex-direction: column;
+    display: flex;
+}
+.container-buttom{
+    display: flex;
+    flex: 8;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.video{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+iframe{
+    flex: 3;
+    border-radius: 15px ;
+}
+.card-buttom{
+    flex: 1;
+    display: flex;
+}
+.images-text{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-right: 15px;
+}
+.img-video{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 0;
+}
+.date{ 
+    display: flex;
+    flex: 1;
+    margin-left: 50px;
+    padding-bottom: 15px;
+    font-size: 13px;
+    color: gray;
+}
